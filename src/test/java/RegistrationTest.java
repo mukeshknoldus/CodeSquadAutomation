@@ -16,8 +16,11 @@ import env_files.Resources;
 import env_files.Payload;
 
 
+
 public class RegistrationTest {
     Properties env_properties = new Properties();
+
+
 
     @BeforeTest
     public void getData() throws IOException {
@@ -29,6 +32,12 @@ public class RegistrationTest {
     @Test
     public void post_registration_valid_credentials() {
         Response response =  null;
+        RegistrationPOJO obj = new RegistrationPOJO();
+        obj.setEmail();
+        obj.setPassword();
+        obj.setUserName();
+
+
         try{
             RestAssured.baseURI = env_properties.getProperty("HOST");
             response = given().contentType(ContentType.JSON).body(Payload.get_already_registered_user_data()).when().
