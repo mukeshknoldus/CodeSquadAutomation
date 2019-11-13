@@ -7,6 +7,7 @@
     <groupId>com.knoldus.CodeSquadTest</groupId>
     <artifactId>CodeSquadTest</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <packaging>jar</packaging>
     <dependencies>
         <dependency>
             <groupId>org.hamcrest</groupId>
@@ -23,6 +24,16 @@
             <artifactId>rest-assured</artifactId>
             <version>3.1.0</version>
             <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-core</artifactId>
+            <version>2.10.0</version>
+        </dependency>
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+            <version>2.10.0</version>
         </dependency>
     </dependencies>
 </project>

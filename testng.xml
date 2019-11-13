@@ -18,8 +18,8 @@
             </run>
         </groups>
         <classes>
-           <!-- <class name = "CodeSquadTest.RegistrationTest"/>
-            <class name = "com.knoldus.restassured.NeedToKnowTest"/>
+            <class name = "RegistrationTest"/>
+<!--            <class name = "com.knoldus.restassured.NeedToKnowTest"/>
             <class name = "com.knoldus.restassured.GetPortsGeographyAllPorts"/>-->
         </classes>
     </test>
