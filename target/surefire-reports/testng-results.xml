@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="10" passed="10">
+  <reporter-output>
+  </reporter-output>
+  <suite name="RegistrationTest" duration-ms="15243" started-at="2019-12-02T04:58:35Z" finished-at="2019-12-02T04:58:50Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="15243" started-at="2019-12-02T04:58:35Z" finished-at="2019-12-02T04:58:50Z">
+      <class name="RegistrationTest">
+        <test-method status="PASS" signature="getData()[pri:0, instance:RegistrationTest@1a407d53]" name="getData" is-config="true" duration-ms="25" started-at="2019-12-02T04:58:35Z" finished-at="2019-12-02T04:58:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getData -->
+        <test-method status="PASS" signature="post_registration_all_fields_empty()[pri:0, instance:RegistrationTest@1a407d53]" name="post_registration_all_fields_empty" duration-ms="4581" started-at="2019-12-02T04:58:35Z" finished-at="2019-12-02T04:58:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- post_registration_all_fields_empty -->
+        <test-method status="PASS" signature="post_registration_alreadyUsed_EmailID()[pri:0, instance:RegistrationTest@1a407d53]" name="post_registration_alreadyUsed_EmailID" duration-ms="636" started-at="2019-12-02T04:58:40Z" finished-at="2019-12-02T04:58:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- post_registration_alreadyUsed_EmailID -->
+        <test-method status="PASS" signature="post_registration_alreadyUsed_UserName()[pri:0, instance:RegistrationTest@1a407d53]" name="post_registration_alreadyUsed_UserName" duration-ms="628" started-at="2019-12-02T04:58:40Z" finished-at="2019-12-02T04:58:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- post_registration_alreadyUsed_UserName -->
+        <test-method status="PASS" signature="post_registration_empty_Email()[pri:0, instance:RegistrationTest@1a407d53]" name="post_registration_empty_Email" duration-ms="607" started-at="2019-12-02T04:58:41Z" finished-at="2019-12-02T04:58:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- post_registration_empty_Email -->
+        <test-method status="PASS" signature="post_registration_empty_password()[pri:0, instance:RegistrationTest@1a407d53]" name="post_registration_empty_password" duration-ms="613" started-at="2019-12-02T04:58:42Z" finished-at="2019-12-02T04:58:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- post_registration_empty_password -->
+        <test-method status="PASS" signature="post_registration_empty_userName()[pri:0, instance:RegistrationTest@1a407d53]" name="post_registration_empty_userName" duration-ms="612" started-at="2019-12-02T04:58:42Z" finished-at="2019-12-02T04:58:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- post_registration_empty_userName -->
+        <test-method status="PASS" signature="post_registration_invalid_emailID()[pri:0, instance:RegistrationTest@1a407d53]" name="post_registration_invalid_emailID" duration-ms="586" started-at="2019-12-02T04:58:43Z" finished-at="2019-12-02T04:58:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- post_registration_invalid_emailID -->
+        <test-method status="PASS" signature="post_registration_invalid_password()[pri:0, instance:RegistrationTest@1a407d53]" name="post_registration_invalid_password" duration-ms="1200" started-at="2019-12-02T04:58:44Z" finished-at="2019-12-02T04:58:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- post_registration_invalid_password -->
+        <test-method status="PASS" signature="post_registration_invalid_userName()[pri:0, instance:RegistrationTest@1a407d53]" name="post_registration_invalid_userName" duration-ms="593" started-at="2019-12-02T04:58:45Z" finished-at="2019-12-02T04:58:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- post_registration_invalid_userName -->
+        <test-method status="PASS" signature="post_registration_valid_credentials()[pri:0, instance:RegistrationTest@1a407d53]" name="post_registration_valid_credentials" duration-ms="1395" started-at="2019-12-02T04:58:45Z" finished-at="2019-12-02T04:58:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- post_registration_valid_credentials -->
+        <test-method status="PASS" signature="deleteRegisteredUser()[pri:0, instance:RegistrationTest@1a407d53]" name="deleteRegisteredUser" is-config="true" duration-ms="3703" started-at="2019-12-02T04:58:47Z" finished-at="2019-12-02T04:58:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteRegisteredUser -->
+      </class> <!-- RegistrationTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- RegistrationTest -->
+</testng-results>

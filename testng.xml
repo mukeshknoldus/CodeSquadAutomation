@@ -1,26 +1,8 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 <suite name = "API Automation test run">
-    <parameter name = "AppKey" value = "Q3bWUuTVRTWMxWrlBhfpKy1CGPkNcQRO"/>
     <test name = "HEALTH CHECK">
-        <groups>
-            <define name = "registration">
-            </define>
-            <define name = "login">
-            </define>
-            <define name = "smoke">
-            </define>
-
-            <run>
-                <exclude name = "registration"/>
-                <exclude name = "login"/>
-                <exclude name = "smoke"/>
-                <include name = "tst"/>
-            </run>
-        </groups>
         <classes>
             <class name = "RegistrationTest"/>
-<!--            <class name = "com.knoldus.restassured.NeedToKnowTest"/>
-            <class name = "com.knoldus.restassured.GetPortsGeographyAllPorts"/>-->
         </classes>
     </test>
 </suite>

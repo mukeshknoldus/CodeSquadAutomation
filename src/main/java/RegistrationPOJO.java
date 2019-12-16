@@ -1,6 +1,6 @@
 public class RegistrationPOJO {
     String userName;
-    String email;
+    String emailId;
     String password;
 
     public String getUserName() {
@@ -11,12 +11,12 @@ public class RegistrationPOJO {
         this.userName = userName;
     }
 
-    public String getEmail() {
-        return email;
+    public String getEmailId() {
+        return emailId;
     }
 
-    public void setEmail(String email) {
-        this.email = email;
+    public void setEmailId(String emailId) {
+        this.emailId = emailId;
     }
 
     public String getPassword() {
