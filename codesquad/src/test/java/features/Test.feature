@@ -1,11 +1,7 @@
-Feature: Login Action
+Feature: codesquad home page options
  
-Scenario: Successful Login with Valid Credentials
- Given User is on Home Page
- When User Navigate to LogIn Page
- And User enters UserName and Password
- Then Message displayed Login Successfully
+Scenario: User should be able to land on codesquad home page
+ Given User is having the codesquad home page URL
+ When User hit  the codeSquad homme page URL
+ Then User should get the register and login button along with home page title as CodeSquad
  
-Scenario: Successful LogOut
- When User LogOut from the Application
- Then Message displayed LogOut Successfully
